@@ -18,6 +18,7 @@ class Calculator extends React.Component {
   };
   decrement = () => {
     this.setState((prevState) => ({
+      
       count: prevState.count - this.state.step,
     }));
   };
