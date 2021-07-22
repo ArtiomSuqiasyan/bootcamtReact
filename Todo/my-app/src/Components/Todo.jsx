@@ -97,6 +97,7 @@ export default class Todo extends React.Component {
       <div>
         <h1>ToDo</h1>
         <div className={"flex-row"}>
+          
           <Input
             type="text"
             placeholder="Add Todo"
